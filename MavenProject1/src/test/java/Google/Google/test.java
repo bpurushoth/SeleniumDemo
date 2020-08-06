@@ -12,7 +12,7 @@ public class test {
 public String baseUrl1 = "https://www.google.com/";
 public String baseUrl2 = "https://twingo.techmahindra.com/"; 
 String driverPath2= "/usr/bin/chromedriver";  
-String driverPath1 = "C:\\chromedriver.exe"; 
+String driverPath1 = "chromedriver.exe"; 
 public WebDriver driver ;   
 @Test(enabled=true)             
 public void google() {      
