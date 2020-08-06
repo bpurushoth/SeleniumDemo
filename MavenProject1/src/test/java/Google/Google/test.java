@@ -30,7 +30,7 @@ driver3.get(baseUrl1);
 // get the current URL of the page  
 String URL= driver3.getCurrentUrl(); 
 String title1 = driver3.getTitle();
-String ExpectedTitle1 = "Google";
+String ExpectedTitle1 = "Googl";
 Assert.assertEquals(title1, ExpectedTitle1);
 System.out.print(URL);  
 //get the title of the page  
